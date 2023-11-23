@@ -28,8 +28,17 @@ header {
 }
 
 .logo {
+    transition: ease-in 500ms;
+}
+
+.logo img {
     display: flex;
     align-items: center;
+}
+
+.logo:hover {
+    transform: translateY(-10px);
+    
 }
 
 .logo-link ul {
@@ -43,9 +52,19 @@ header {
     color: #FFF;
     list-style: none;
     text-decoration: none;
-    /* text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25); */
+    transition: ease-in 250ms;
 }
 
 #link-1:hover {
     text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25);
+    text-decoration:underline;
 }
+
+#link-2:hover {
+    text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25);
+}
+
+#link-3:hover {
+    text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25);
+}
+
