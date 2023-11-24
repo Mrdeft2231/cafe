@@ -11,17 +11,17 @@
 
 
 header {
-    max-width: 1920px;
-    max-height: 92px;
     background-color: rgba(111, 78, 55, 0.70);
     border-bottom: 2px solid #D9D9D9;
 }
 
 .header {
+    max-width: 1920px;
+    max-height: 92px;
     margin: 0 auto;
     box-sizing: border-box;
     width: 73%;
-    height: 92px;
+    height: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,14 +57,47 @@ header {
 
 #link-1:hover {
     text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25);
-    text-decoration:underline;
+    color: rgb(255, 164, 94);
+    border-bottom: 5px solid;
 }
 
 #link-2:hover {
     text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25);
+    color:aqua;
+    border-bottom: 5px solid;
 }
 
 #link-3:hover {
     text-shadow: 8px 0px 3px rgba(0, 0, 0, 0.25);
+    color: blue;
+    border-bottom: 5px solid;
 }
 
+/* Начало слайдера */
+
+.slider-main {
+/* background-color: black; */
+
+}
+
+.sliders {
+    
+    max-width: 1920px;
+    max-height: 500px;
+    border: 10px solid #ff0000;
+    background-color: black;
+    width: 100%;
+    height: 100vw;
+    overflow: hidden;
+}
+
+.middle {
+    max-width: 1920px;
+    width: 98.75%;
+    max-height: 500px;
+    position: absolute;
+    top: 92.3px;
+    left: 0%;
+    
+    
+}
