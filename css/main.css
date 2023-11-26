@@ -527,6 +527,8 @@ justify-content: center;
 }
 }
 
+
+
 @media (max-width:474px) {
     .coffe-text strong{
         font-size: 2px;
@@ -536,6 +538,12 @@ justify-content: center;
     .coffe-text p {
         font-size: 2px;
         
+    }
+}
+
+@media (max-width:474px) {
+    main {
+        padding-top: 280px;
     }
 }
 
