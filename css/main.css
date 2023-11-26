@@ -107,7 +107,7 @@ header {
 }
 
 .bar:hover {
-    opacity: 0.8;
+    opacity: 1;
     transform: scale(1.1);
 }
 
@@ -230,9 +230,11 @@ max-height: 500px;
 max-width: 1920px;
 width: 100%;
 height: 100vw;
-background: url(/img/beackground.jpg);
+background: url(/img/ground.jpg);
+
 background-size: 100% 100%;
 background-repeat: no-repeat;
+
 }
 
 .opisanie {
