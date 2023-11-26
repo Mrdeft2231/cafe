@@ -302,16 +302,259 @@ footer {
 
 
 .cafe-biba {
-    margin: 150px 0 0 340px
+border-top: 3px solid #000000;
+padding-top: 8px;
+width: 75%;
+margin: 0 auto;
+display: flex;
+justify-content: center;
 }
 
-hr {
-    max-width: 1920px;
-    width: 100%;
-}
-
-.cafe-biba p {
+.cafe-biba strong {
     text-align: center;
     font-size: 20px;
+    color: #ddd;
 }
+
+@media (max-width:1362px) {
+
+    main {
+        padding-top: 915px;
+    }
+    
+    .adress {
+        margin-top: 20px;
+    }
+
+    .time {
+        margin: 0;
+    }
+
+    .contact {
+        margin-top: 50px;
+    }
+
+    .contenier h1 {
+        font-size: 16px;
+    }
+
+    .contenier h2 {
+        font-size: 16px;
+    }
+
+    .block-time {
+        max-height: 150px;
+    }
+
+    .beackground {
+        max-height: 300px;
+    }
+
+    .opisanie {
+        max-height: 250px;
+    }
+
+    .coffe-img {
+        max-width: 250px;
+        max-height: 150px;
+        padding-left: 100px;
+    }
+
+    .coffe-text strong {
+        font-size: 16px;
+    }
+    .coffe-text p {
+        font-size: 10px;
+    }
+
+    footer {
+        margin-top: 356px;
+    }
+
+}
+
+@media (max-width:878px) {
+
+    .logo img {
+        max-width: 80px;
+        max-height: 40px;
+    }
+
+    .logo-link li, a {
+        font-size: 20px;
+    }
+
+    main {
+        padding-top: 600px;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+
+    .content {
+        max-height: 353px;
+    }
+
+    .contenier h1 {
+        font-size: 10px;
+    }
+
+    .contenier h2 {
+        font-size: 10px;
+    }
+
+    .block-time {
+        font-size: 8px;
+        max-height: 90px;
+        border: 6px solid #D9D9D9;
+    }   
+
+    .coffe-text strong{
+        font-size: 10px;
+    }
+
+    .coffe-text p {
+        font-size: 7px;
+    }
+
+    .cafe-biba {
+        border-top: 1px solid #000000;
+    }
+
+    .cafe-biba strong {
+        font-size: 10px;
+
+    }
+
+    footer {
+        margin-top: 270px;
+    }
+}
+
+@media (max-width:630px) {
+    main {
+        padding-top: 430px;
+    }
+
+    .coffe-text strong{
+        font-size: 8px;
+    }
+
+    .coffe-text p {
+        font-size: 6px;
+    }
+
+}
+
+@media (max-width:630px) {
+
+    .contenier h1 {
+        font-size: 5px;
+    }
+
+    .contenier h2 {
+        font-size: 5px;
+    }
+
+    .opisanie {
+        max-height: 100px; 
+    }
+
+    .coffe-text {
+        padding: 0 100px 0 0;
+    }
+
+
+    .coffe-text strong{
+        font-size: 5px;
+    }
+
+
+    .coffe-text p {
+        font-size: 4px;
+        
+    }
+
+    .coffe-img {
+        max-width: 60px;
+        max-height: 50px;
+        padding-left: 100px;
+    }
+    footer {
+        margin-top: 71px;
+    }
+
+    .content {
+        max-height: 205px;
+    }
+
+    .block-time {
+        max-height: 45px;
+    }
+}
+
+@media (max-width:492px) {
+
+    .header {
+        max-height: 40px;
+    }
+
+    .logo img {
+        max-width: 40px;
+        max-height: 20px;
+    }
+
+    .logo-link li, a {
+        font-size: 10px;
+    }
+
+    .content {
+        max-height: 179px;
+    }
+
+    main {
+        padding-top: 340px;
+    }
+
+    footer {
+        max-height: 90px;
+}
+
+.cafe-biba strong { 
+    padding-top: 0px;
+    font-size: 7px;
+}
+}
+
+@media (max-width:474px) {
+    .coffe-text strong{
+        font-size: 2px;
+    }
+
+
+    .coffe-text p {
+        font-size: 2px;
+        
+    }
+}
+
+@media (max-width:320px) {
+
+    .content {
+        width: 100%;
+    }
+
+    main {
+        padding-top: 224px;
+    }
+
+    footer { 
+        margin-top: 122px;
+    }
+    .content {
+        max-height: 150px;
+    }
+}
+
 
